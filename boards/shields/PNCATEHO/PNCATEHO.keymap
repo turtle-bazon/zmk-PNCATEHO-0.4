@@ -12,7 +12,6 @@
 
 // CONFIG
 #define COMBO_TIMEOUT 70
-#define COMBO_LAYERS 0
 #define STICKY_TIMEOUT 500
 
 &sk {
