@@ -91,7 +91,7 @@
         };
 
         selection_layer {
-            label = "selectionn";
+            label = "selection";
             bindings = <
 &to NAVIGATION_LAYER  &to LOL_MAIN_LAYER  &none  &to BLUETOOTH_LAYER
 &to RGB_LAYER         &to TUX_LAYER       &none  &to KBCTRL_LAYER
