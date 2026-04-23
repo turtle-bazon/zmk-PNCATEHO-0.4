@@ -1,6 +1,8 @@
 #include "PNCATEHO-chords-engine.dtsi"
 
 //    (name,   press,       inner,         out,         both,          chord)
+TCOMBO(SLCT,   &to SELECTION_LAYER, &none, &none,       &none,   SN SA SE SO)
+
 TCOMBO(B,      &kp B,       &kp LS(B),     &kp LEFT,    &kp LS(LEFT),  SN)
 TCOMBO(F,      &kp F,       &kp LS(F),     &kp UP,      &kp LS(UP),    SA)
 TCOMBO(T,      &kp T,       &kp LS(T),     &kp DOWN,    &kp LS(DOWN),  SE)
@@ -39,6 +41,4 @@ TCOMBO(DEL,    &kp DEL,     &none,         &kp LC(DEL), &none,         SA SC)
 TCOMBO(ESC,    &kp ESC,     &none,         &kp N1,      &none,         SE ST)
 TCOMBO(TAB,    &kp TAB,     &kp LA(TAB),   &kp LC(TAB), &none,         SN SP)
 TCOMBO(ENTER,  &kp ENTER,   &kp LS(ENTER), &none,       &none,         SO SH)
-
-TCOMBO(SLCT,   &to SELECTION_LAYER, &none, &none,       &none,   SN SA SE SO)
 
