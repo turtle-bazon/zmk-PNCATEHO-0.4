@@ -81,7 +81,7 @@
         compatible = "zmk,keymap";
 
         combo_layer {
-            label = "combo";
+            display-name = "combo";
             bindings = <
 &kp EXCLAMATION  &none  &none  &none
 &none            &none  &none  &none
@@ -90,7 +90,7 @@
         };
 
         selection_layer {
-            label = "selection";
+            display-name = "selection";
             bindings = <
 &to NAVIGATION_LAYER  &to LOL_MAIN_LAYER  &none  &to BLUETOOTH_LAYER
 &to RGB_LAYER         &to TUX_LAYER       &none  &to KBCTRL_LAYER
@@ -99,7 +99,7 @@
         };
 
         navigation_layer {
-            label = "navigation";
+            display-name = "navigation";
             bindings = <
 &kp PG_UP  &kp END   &kp UP    &kp HOME
 &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT
@@ -108,7 +108,7 @@
         };
 
         bluetooth_layer {
-            label = "bluetooth";
+            display-name = "bluetooth";
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
 &bt BT_CLR    &none         &bt BT_PRV    &bt BT_NXT
@@ -117,7 +117,7 @@
         };
 
         kbctrl_layer {
-            label = "kbctrl";
+            display-name = "kbctrl";
             bindings = <
 &bootloader  &none  &none  &studio_unlock
 &sys_reset   &none  &none  &none
@@ -126,7 +126,7 @@
         };
 
         rgb_layer {
-            label = "rgb";
+            display-name = "rgb";
             bindings = <
 &ext_power EP_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF
 &none              &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR
@@ -135,7 +135,7 @@
         };
 
         lol_main_layer {
-            label = "lol-main";
+            display-name = "lol-main";
             bindings = <
 &kp Q  &kp W  &kp E  &kp R
 &kp A  &kp S  &kp D  &kp F
@@ -144,7 +144,7 @@
         };
 
         lol_numbers_layer {
-            label = "lol-numbers";
+            display-name = "lol-numbers";
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4
 &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8
@@ -153,7 +153,7 @@
         };
 
         lol_additional_layer {
-            label = "lol-additional";
+            display-name = "lol-additional";
             bindings = <
 &kp ESC  &none  &none  &to COMBO_LAYER
 &kp TAB  &none  &none  &none
@@ -162,7 +162,7 @@
         };
 
         lol_fn_layer {
-            label = "lol-fn";
+            display-name = "lol-fn";
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4
 &kp F5  &kp F6  &kp F7  &kp F8
@@ -171,13 +171,12 @@
         };
 
         super_tux {
+	    display-name = "super-tux";
             bindings = <
 &kp HOME   &kp PAGE_DOWN  &kp END  &kp RIGHT
 &kp LCTRL  &kp DELETE     &kp UP   &kp DOWN
                                    &kp LEFT   &kp SPACE
             >;
-
-            label = "Super Tux";
         };
     };
 };
