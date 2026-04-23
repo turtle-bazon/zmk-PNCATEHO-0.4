@@ -62,7 +62,7 @@
             layers = <COMBO_LAYER>;
         };
 
-        #include "PNCATEHO-chords.dtsi"
+//        #include "PNCATEHO-chords.dtsi"
     };
 
     behaviors {
