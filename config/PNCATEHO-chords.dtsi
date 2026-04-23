@@ -1,4 +1,4 @@
-#include "chords-engine.dtsi";
+#include "PNCATEHO-chords-engine.dtsi"
 
 //    (name,   press,       inner,         out,         both,          chord)
 TCOMBO(B,      &kp B,       &kp LS(B),     &kp LEFT,    &kp LS(LEFT),  SN)
