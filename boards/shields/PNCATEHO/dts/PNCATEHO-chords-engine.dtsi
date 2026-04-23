@@ -3,24 +3,24 @@ combo_l_##NAME { \
 	timeout-ms = <COMBO_TIMEOUT>; \
 	bindings = <BINDINGS>; \
 	key-positions = <KEYPOS>; \
-	layers = <COMBO_LAYERS>; \
+	layers = <COMBO_LAYER>; \
 }; \
 combo_li_##NAME { \
 	timeout-ms = <COMBO_TIMEOUT>; \
 	bindings = <INNER_BINDINGS>; \
 	key-positions = <KEYPOS SIT>; \
-	layers = <COMBO_LAYERS>; \
+	layers = <COMBO_LAYER>; \
 }; \
 combo_lo_##NAME { \
 	timeout-ms = <COMBO_TIMEOUT>; \
 	bindings = <OUTER_BINDINGS>; \
 	key-positions = <KEYPOS SOT>; \
-	layers = <COMBO_LAYERS>; \
+	layers = <COMBO_LAYER>; \
 }; \
 combo_lb_##NAME { \
 	timeout-ms = <COMBO_TIMEOUT>; \
 	bindings = <BOTH_BINDINGS>; \
 	key-positions = <KEYPOS SIT SOT>; \
-	layers = <COMBO_LAYERS>; \
+	layers = <COMBO_LAYER>; \
 }; \
 

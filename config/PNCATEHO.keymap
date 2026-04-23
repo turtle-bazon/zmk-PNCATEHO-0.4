@@ -13,7 +13,6 @@
 // CONFIG
 
 #define COMBO_TIMEOUT 70
-#define COMBO_LAYERS 0
 #define COMBO_LAYER 0
 #define SELECTION_LAYER 1
 #define NAVIGATION_LAYER 2
@@ -53,14 +52,14 @@
             timeout-ms = <COMBO_TIMEOUT>;
             bindings = <&kp SPACE>;
             key-positions = <SIT>;
-            layers = <COMBO_LAYERS>;
+            layers = <COMBO_LAYER>;
         };
 
         combo_l_bspc {
             timeout-ms = <COMBO_TIMEOUT>;
             bindings = <&kp BSPC>;
             key-positions = <SOT>;
-            layers = <COMBO_LAYERS>;
+            layers = <COMBO_LAYER>;
         };
 
         #include "PNCATEHO-chords.dtsi"
